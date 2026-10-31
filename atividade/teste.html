@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máquina de Passar Vontade</title>
+    <!-- Fonte moderna do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <main class="machine-container">
+        <header>
+            <span class="badge">Passar vontade é de graça né pae</span>
+            <h1>Máquina de Passar Vontade</h1>
+            <p>Escolha qual refrigerante você vai apenas <strong>olhar e desejar</strong>, nada para beber:</p>
+        </header>
+
+        <form id="soda-form">
+            <div class="options-grid">
+                <input type="radio" id="coca" name="refrigerante" value="coca">
+                <label for="coca" class="card card-coca">
+                    <img src="img/img-coca.png" alt="Lata de Coca-Cola" class="refri-img">
+                    <span class="name">Coca-Cola</span>
+                </label>
+
+                <input type="radio" id="fanta" name="refrigerante" value="fanta">
+                <label for="fanta" class="card card-fanta">
+                    <img src="img/img-fanta-uva.png" alt="Lata de Fanta Uva" class="refri-img">
+                    <span class="name">Fanta Uva</span>
+                </label>
+
+                <input type="radio" id="guarana" name="refrigerante" value="guarana">
+                <label for="guarana" class="card card-guarana">
+                    <img src="img/img-guarana.png" alt="Lata de Guaraná" class="refri-img">
+                    <span class="name">Guaraná</span>
+                </label>
+
+                <input type="radio" id="pepsi" name="refrigerante" value="pepsi">
+                <label for="pepsi" class="card card-pepsi">
+                    <img src="img/img-pepsi.png" alt="Lata de Pepsi" class="refri-img">
+                    <span class="name">Pepsi</span>
+                </label>
+            </div>
+
+            <button type="submit" id="btn-pedir">Quero passar vontade!</button>
+        </form>
+
+        <!-- Área onde o resultado divertido vai aparecer -->
+        <div id="resultado" class="resultado escondido">
+            <div class="resultado-conteudo">
+                <p id="mensagem-vontade"></p>
+                <span id="efeito-som">*Tsss... barulho de lata abrindo*</span>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

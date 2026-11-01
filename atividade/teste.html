@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Máquina de Passar Vontade</title>
-    <!-- Fonte moderna do Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
@@ -22,7 +21,7 @@
 
         <form id="soda-form">
             <div class="options-grid">
-                <input type="radio" id="coca" name="refrigerante" value="coca">
+                <input type="radio" id="coca" name="refrigerante" value="coca" checked>
                 <label for="coca" class="card card-coca">
                     <img src="img/img-coca.png" alt="Lata de Coca-Cola" class="refri-img">
                     <span class="name">Coca-Cola</span>
@@ -53,8 +52,10 @@
         <!-- Área onde o resultado divertido vai aparecer -->
         <div id="resultado" class="resultado escondido">
             <div class="resultado-conteudo">
-                <img id="mensagem-vontade" href=""></img>
-                <span id="efeito-som">*Tsss... barulho de lata abrindo*</span>
+                <img id="imagem-vontade" src="" class="refri-img">
+                <br>
+                <span id="mensagem"></span>
+                <span id="efeito-som"></span>
             </div>
         </div>
     </main>

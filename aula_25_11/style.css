@@ -1,0 +1,59 @@
+   body {
+       font-family: Arial, sans-serif;
+       background-color: #f4f4f9;
+       padding: 20px;
+   }
+
+   form {
+       background: #fff;
+       padding: 20px;
+       border-radius: 8px;
+       max-width: 400px;
+       margin: auto;
+       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   }
+
+   label {
+       display: block;
+       margin-top: 10px;
+       font-weight: bold;
+   }
+
+   input {
+       width: 100%;
+       padding: 8px;
+       margin-top: 5px;
+       box-sizing: border-box;
+   }
+
+   button {
+       margin-top: 15px;
+       width: 100%;
+       padding: 10px;
+       background: rgba(0, 3, 179, 0.925);
+       color: white;
+       border: none;
+       border-radius: 10px;
+       cursor: pointer;
+   }
+
+   .erro {
+       color: red;
+       font-size: 13px;
+       margin-top: 4px;
+       display: block;
+   }
+
+   .sucesso {
+       color: green;
+       font-weight: bold;
+       margin-top: 15px;
+       text-align: center;
+   }
+
+   .titulo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: rgba(0, 3, 179, 0.925);
+   }
